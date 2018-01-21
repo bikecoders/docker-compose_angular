@@ -20,7 +20,7 @@ You need to add in the `package.json` file the following at the end of the scrip
 `docker-compose run --rm --user=$UID angular yarn install`
 
 #### Normal
-`docker-compose run --rm --user=$UID angular yarn add --dev PACKAGE_NAME`
+`docker-compose run --rm --user=$UID angular yarn add PACKAGE_NAME`
 
 #### Dev dependency
 `docker-compose run --rm --user=$UID angular yarn add --dev PACKAGE_NAME`
