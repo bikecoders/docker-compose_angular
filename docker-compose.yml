@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+
+  angular:
+    build:
+      context: ./docker-images/angular-cli
+    ports:
+     - "4200:4200"
+    command: npm start
+    working_dir: /app
+    volumes:
+     - './Angular-Project/:/app'
+    networks:
+     - api-external
+
+networks:
+  api-external:
+    external:
+      name: api-net
