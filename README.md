@@ -6,7 +6,7 @@
 
 --------
 ### Create a New Project
-`docker-compose run --rm --user=$UID angular ng new YOUR-PROJECT-NAME --style sass --skip-install`
+`docker-compose run --rm --user=$UID angular ng new YOUR-PROJECT-NAME --style sass --directory ./`
 
 **IMPORTANT**
 
