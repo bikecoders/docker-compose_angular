@@ -8,7 +8,8 @@
 ### Create a New Project
 `docker-compose run --rm --user=$UID angular ng new YOUR-PROJECT-NAME --style sass --skip-install`
 
-*IMPORTANT*
+**IMPORTANT**
+
 You need to add in the `package.json` file the following at the end of the script `start` -> `--host 0.0.0.0`
 
 --------
